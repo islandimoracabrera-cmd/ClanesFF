@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Free App v1.0.7</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{
+    height:100%;
+    font-family:'Segoe UI',Tahoma,sans-serif;
+    color:#f5f5f5;
+    background:#090000;
+    overflow-x:hidden;
+}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:#1a0000}
+::-webkit-scrollbar-thumb{background:#5a0000;border-radius:4px}
+
+/* BG AURA ROJA TIPO DRAGON BALL */
+body::after{
+    content:'';
+    position:fixed;
+    inset:0;
+    z-index:-1;
+    pointer-events:none;
+    background:radial-gradient(ellipse 80% 40% at 50% 0%,rgba(255,40,0,.25) 0%,transparent 70%),
+               radial-gradient(ellipse 50% 30% at 20% 80%,rgba(180,0,0,.18) 0%,transparent 60%);
+    animation:pulse 4s ease-in-out infinite;
+}
+@keyframes pulse{
+    0%,100%{opacity:1}
+    50%{opacity:0.6}
+}
+
+/* CONTENIDO */
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    text-align:center;
+    padding:20px;
+}
+h1{
+    font-size:60px;
+    color:#ff4040;
+    text-shadow:0 0 20px #ff4040, 0 0 40px #ff2000;
+    margin-bottom:10px;
+}
+p{
+    font-size:20px;
+    opacity:0.8;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>UFF MI AMOR 🔥</h1>
+    <p>Free App v1.0.7 - ClanesFF</p>
+</div>
+</body>
+</html>
